@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <RootNamespace>Microsoft.FeatureManagement.Utilities.Samples.Web</RootNamespace>
+    <AssemblyName>Microsoft.FeatureManagement.Utilities.Samples.Web</AssemblyName>
+    <IsPackable>false</IsPackable>
+    <NoWarn>$(NoWarn);IDE0060;IDE0300;CA1861</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.FeatureManagement.AspNetCore" />
+    <PackageReference Include="Swashbuckle.AspNetCore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.FeatureManagement.Utilities\Utilities.csproj" />
+  </ItemGroup>
+</Project>

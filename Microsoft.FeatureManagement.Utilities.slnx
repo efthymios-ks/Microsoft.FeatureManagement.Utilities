@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="global.json" />
+    <File Path="LICENSE" />
+    <File Path="NuGet.config" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="Microsoft.FeatureManagement.Utilities/Utilities.csproj" />
+  <Project Path="Microsoft.FeatureManagement.Utilities.Tests/Tests.csproj" />
+  <Folder Name="/Samples/">
+    <Project Path="Microsoft.FeatureManagement.Utilities.Samples.Web/Web.csproj" />
+  </Folder>
+</Solution>

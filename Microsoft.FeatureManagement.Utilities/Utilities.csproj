@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Microsoft.FeatureManagement.Utilities</RootNamespace>
+    <AssemblyName>Microsoft.FeatureManagement.Utilities</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.FeatureManagement" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Microsoft.FeatureManagement.Utilities.Tests" />
+  </ItemGroup>
+</Project>
